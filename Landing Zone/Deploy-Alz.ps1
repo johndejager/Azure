@@ -10,7 +10,7 @@
     .PARAMETER VnetAddressSpace
     Enter the Address space for the VNET, should be atleast /22
     .EXAMPLE
-    Deploy-Alz.ps1 -SubscriptionId 1234-5678-9013-4455 -custabbr ucs -VnetAddressSpace 10.232.0.0/22 -vpn $true
+    Deploy-Alz.ps1 -SubscriptionId 1234-5678-9013-4455 -custabbr ucs -VnetAddressSpace 10.232.0.0/22 -vpnGateway $true
 #>
 param (
     [Parameter(Mandatory)]
