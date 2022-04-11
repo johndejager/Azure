@@ -2,7 +2,7 @@
     .SYNOPSIS
     Create Azure Landing Zone (ALZ) for a new customer.
     .DESCRIPTION
-    Create Azure Landing Zone (ALZ) for a new customer based on the Unica Cloud Solutions (UCS) naming convention.
+    Create Azure Landing Zone (ALZ) for a new customer based on a naming convention.
     .PARAMETER SubscriptionId
     Enter the subscriptionid of the customer.
     .PARAMETER customerAbbreviation
